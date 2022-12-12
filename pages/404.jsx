@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export const NoEncontrado = () => {
+export const Notfound = () => {
     return (
         <div className="container  page-error">
         <h1>4 0 4</h1>
@@ -26,4 +26,4 @@ export const NoEncontrado = () => {
     
 
 
-export default NoEncontrado
+export default Notfound
