@@ -20,7 +20,50 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: rgb(15, 14, 14);
+    background: rgb(240, 230, 230);
   }
+}
+
+
+.page-error{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  
+ 
+}
+
+.page-error h1{
+  font-size: 9rem;
+  color: #33757f;
+}
+
+.page-error h2{
+  margin-top: -5rem;
+}
+
+
+.back{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: -1rem;
+  height: 3rem;
+  margin-top: 3rem;
+}
+
+.back button{
+  background-color: aqua;
+    color: black;
+    border-radius: 16px;
+    box-shadow: 2px 2px;
+}
+
+.back button:hover{
+  transition: all 2s;
+  color: rgb(22, 22, 170);
 }
